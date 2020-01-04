@@ -1,0 +1,13 @@
+처음 Go, git, atom editor 설치후 세팅 - install 들어가 부가 라이브러리 설치 -> script/git-plus 등등
+
+ctrl-shif-B => 커맨드명령어
+
+cmd창 내부 명령어 (src 폴더 내에서)
+
+##run/build/install 차이점 (실행/실행가능파일 생성/개발다끝나고 최종배포 명령어)
+go run .\helloworld.go  -> go 스크립트 실행
+go build .\helloworld.go -> helloworld.go에 대해 실행가능한 exe파일 생성해줌. 이후 실행하려면 .\helloworld.exe 단독명령어를 통해 hello world 실행가능
+go install -> section1 exe파일이 bin 파일에 생성됨  (프로젝트 이름이 section1인데, 프로젝트포함되는모든go exe파일을 bin에 넣어놈). -> section1 실행하면 해당 프로젝트내 go 파일을 모두 실행함
+
+
+
