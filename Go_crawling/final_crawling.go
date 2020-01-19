@@ -109,7 +109,7 @@ func main() {
        go scrapContents(scrape.Attr(link, "href"), fileName)
 }
 
-//모든 작업이 종료될 때 까지 대기
+//모든 작업이 종료될 때 까지 대기 
        wg.Wait()
 
 
